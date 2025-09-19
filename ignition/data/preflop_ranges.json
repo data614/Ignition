@@ -1,0 +1,140 @@
+{
+  "metadata": {
+    "game_type": "NLHE",
+    "format": "6-max",
+    "description": "Curated study ranges for 100bb stacks in Ignition cash games"
+  },
+  "ranges": {
+    "100bb": {
+      "UTG": {
+        "open": {
+          "raise": [
+            "AA", "KK", "QQ", "JJ", "TT", "99", "88",
+            "AKs", "AQs", "AJs", "KQs", "AKo", "AQo"
+          ],
+          "call": []
+        },
+        "vs_raise": {
+          "three_bet": ["AA", "KK", "QQ", "AKs", "AKo"],
+          "call": ["JJ", "TT", "AQs", "AJs", "KQs"]
+        },
+        "vs_3bet": {
+          "four_bet": ["AA", "KK", "AKs"],
+          "call": ["QQ", "JJ", "AKo", "AQs"]
+        }
+      },
+      "HJ": {
+        "open": {
+          "raise": [
+            "AA", "KK", "QQ", "JJ", "TT", "99", "88", "77",
+            "AKs", "AQs", "AJs", "ATs", "KQs", "KJs", "QJs", "JTs", "T9s",
+            "AKo", "AQo", "AJo", "KQo"
+          ],
+          "call": []
+        },
+        "vs_raise": {
+          "three_bet": ["AA", "KK", "QQ", "AKs", "AQs", "AKo"],
+          "call": ["JJ", "TT", "99", "AQo", "KQs", "AJs", "KJs", "QJs", "JTs"]
+        },
+        "vs_3bet": {
+          "four_bet": ["AA", "KK", "AKs", "AQs", "AKo"],
+          "call": ["QQ", "JJ", "TT", "AQo", "KQs"]
+        }
+      },
+      "CO": {
+        "open": {
+          "raise": [
+            "AA", "KK", "QQ", "JJ", "TT", "99", "88", "77", "66", "55",
+            "AKs", "AQs", "AJs", "ATs", "A9s", "A8s",
+            "KQs", "KJs", "KTs", "QJs", "QTs", "JTs", "T9s", "98s", "87s", "76s", "65s",
+            "AKo", "AQo", "AJo", "ATo", "KQo", "KJo", "QJo", "JTo"
+          ],
+          "call": []
+        },
+        "vs_raise": {
+          "three_bet": ["AA", "KK", "QQ", "JJ", "AKs", "AQs", "AJs", "KQs", "AKo", "AQo"],
+          "call": ["TT", "99", "88", "77", "ATs", "A9s", "KJs", "QJs", "JTs", "T9s", "AJo", "KQo"]
+        },
+        "vs_3bet": {
+          "four_bet": ["AA", "KK", "QQ", "AKs", "AQs", "AKo"],
+          "call": ["JJ", "TT", "99", "AQo", "KQs", "AJs", "ATs"]
+        }
+      },
+      "BTN": {
+        "open": {
+          "raise": [
+            "AA", "KK", "QQ", "JJ", "TT", "99", "88", "77", "66", "55", "44", "33", "22",
+            "AKs", "AQs", "AJs", "ATs", "A9s", "A8s", "A7s", "A6s", "A5s", "A4s", "A3s", "A2s",
+            "KQs", "KJs", "KTs", "K9s", "QJs", "QTs", "Q9s", "JTs", "J9s", "T9s", "T8s",
+            "98s", "97s", "87s", "86s", "76s", "75s", "65s", "54s",
+            "AKo", "AQo", "AJo", "ATo", "A9o", "KQo", "KJo", "KTo", "QJo", "QTo", "JTo", "T9o", "98o"
+          ],
+          "call": []
+        },
+        "vs_raise": {
+          "three_bet": [
+            "AA", "KK", "QQ", "JJ", "TT", "AKs", "AQs", "AJs", "ATs", "KQs", "KJs",
+            "QJs", "JTs", "T9s", "AKo", "AQo", "AJo", "KQo"
+          ],
+          "call": [
+            "99", "88", "77", "66", "55", "ATo", "A9s", "A8s", "A7s", "A6s", "A5s",
+            "KTs", "K9s", "QTs", "Q9s", "J9s", "T8s", "98s", "87s", "76s", "65s", "54s",
+            "KJo", "QJo", "JTo", "T9o", "98o"
+          ]
+        },
+        "vs_3bet": {
+          "four_bet": ["AA", "KK", "QQ", "JJ", "AKs", "AQs", "AJs", "KQs", "AKo", "AQo"],
+          "call": ["TT", "99", "88", "AJo", "ATs", "KQs", "KJs", "QJs", "JTs", "T9s", "A5s"]
+        }
+      },
+      "SB": {
+        "open": {
+          "raise": [
+            "AA", "KK", "QQ", "JJ", "TT", "99", "88", "77", "66", "55", "44", "33", "22",
+            "AKs", "AQs", "AJs", "ATs", "A9s", "A8s", "A7s", "A6s", "A5s", "A4s", "A3s", "A2s",
+            "KQs", "KJs", "KTs", "K9s", "K8s", "QJs", "QTs", "Q9s", "Q8s",
+            "JTs", "J9s", "J8s", "T9s", "T8s", "98s", "97s", "87s", "86s", "76s", "75s", "65s", "64s", "54s", "53s",
+            "AKo", "AQo", "AJo", "ATo", "A9o", "A8o", "A7o", "A6o", "A5o", "KQo", "KJo", "KTo", "K9o", "QJo", "QTo", "JTo", "T9o"
+          ],
+          "call": []
+        },
+        "vs_raise": {
+          "three_bet": ["AA", "KK", "QQ", "JJ", "TT", "AKs", "AQs", "AJs", "KQs", "AKo", "AQo"],
+          "call": ["99", "88", "77", "66", "55", "ATs", "A9s", "KJs", "QJs", "JTs", "T9s", "AJo", "KQo", "QJo", "JTo"]
+        },
+        "vs_3bet": {
+          "four_bet": ["AA", "KK", "QQ", "AKs", "AQs", "AKo"],
+          "call": ["JJ", "TT", "99", "AJs", "KQs", "AQo", "AJo", "A5s"]
+        }
+      },
+      "BB": {
+        "open": {
+          "raise": [
+            "AA", "KK", "QQ", "JJ", "TT", "99", "88", "77", "66", "55", "44", "33", "22",
+            "AKs", "AQs", "AJs", "ATs", "A9s", "A8s", "A7s", "A6s", "A5s", "A4s", "A3s", "A2s",
+            "KQs", "KJs", "KTs", "K9s", "QJs", "QTs", "Q9s", "JTs", "J9s", "T9s", "T8s",
+            "98s", "87s", "76s", "65s", "54s",
+            "AKo", "AQo", "AJo", "ATo", "A9o", "KQo", "KJo", "QJo", "JTo", "T9o"
+          ],
+          "call": []
+        },
+        "vs_raise": {
+          "three_bet": [
+            "AA", "KK", "QQ", "JJ", "TT", "99", "88", "77",
+            "AKs", "AQs", "AJs", "KQs", "KJs", "QJs", "JTs", "T9s", "98s", "87s", "76s",
+            "AKo", "AQo", "AJo", "KQo"
+          ],
+          "call": [
+            "66", "55", "44", "33", "22", "ATs", "A9s", "A8s", "A7s", "A6s", "A5s", "A4s", "A3s", "A2s",
+            "KTs", "K9s", "QTs", "Q9s", "J9s", "T8s", "97s", "86s", "75s", "65s", "54s",
+            "KJo", "QJo", "JTo", "T9o", "98o", "87o"
+          ]
+        },
+        "vs_3bet": {
+          "four_bet": ["AA", "KK", "QQ", "AKs", "AQs", "AKo"],
+          "call": ["JJ", "TT", "99", "AJs", "KQs", "AQo", "AJo", "A5s"]
+        }
+      }
+    }
+  }
+}
